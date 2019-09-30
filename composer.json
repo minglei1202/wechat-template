@@ -1,5 +1,5 @@
 {
-    "name": "Limily/wechat-template",
+    "name": "limily/wechat-template",
     "description": "微信小程序模板消息",
     "keywords": ["wechat-template", "minapp"],
     "type": "library",
