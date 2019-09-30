@@ -1,0 +1,19 @@
+{
+    "name": "minglei1202/wechat-template",
+    "description": "微信小程序模板消息",
+    "type": "l",
+    "require": {
+        "php": "7.1"
+    },
+    "require-dev": {
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Limily",
+            "email": "237446547@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
