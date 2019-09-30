@@ -1,5 +1,5 @@
 {
-    "name": "minglei1202/wechat-template",
+    "name": "Limily/wechat-template",
     "description": "微信小程序模板消息",
     "type": "l",
     "require": {
@@ -15,5 +15,10 @@
             "email": "237446547@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "Limily\\wechat-template\\": "src/"
+        }
+    }
 }
