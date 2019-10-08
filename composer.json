@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "limily\\wechat-template\\": "src"
+            "limily\\wechat_template\\": "src"
         }
     },
     "license": "MIT"

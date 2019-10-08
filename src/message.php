@@ -1,8 +1,8 @@
 <?php
 
-namespace Limily;
+namespace limily\wechat_template;
 
-use Limily\interfaces\WechatInterface;
+use limily\wechat_template\interfaces\WechatInterface;
 
 abstract class Message implements WechatInterface
 {

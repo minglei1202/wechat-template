@@ -1,5 +1,5 @@
 <?php
-namespace Limily\tools;
+namespace limily\wechat_template\tools;
 
 class Tools
 {

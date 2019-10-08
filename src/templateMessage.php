@@ -1,6 +1,6 @@
 <?php
 
-namespace Limily;
+namespace limily\wechat_template;
 
 use Ixudra\Curl\Facades\Curl;
 
