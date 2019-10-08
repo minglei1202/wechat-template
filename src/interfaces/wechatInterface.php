@@ -1,6 +1,6 @@
 <?php
 
-namespace limily\wechat_template\interfaces;
+namespace limily\wechat\template\interfaces;
 
 interface WechatInterface
 {
