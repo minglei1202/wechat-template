@@ -2,7 +2,6 @@
 
 namespace limily\wechat\template;
 
-use Ixudra\Curl\Facades\Curl;
 
 class TemplateMessage extends Message
 {
@@ -10,7 +9,7 @@ class TemplateMessage extends Message
     public function send()
     {
         // TODO: Implement send() method.
-        $result = Curl::to('http://newyxpg.baoxiakuan369.com/api/seckill/detail/14')->get();
+        $result = $this->request_get('http://newyxpg.baoxiakuan369.com/api/seckill/detail/14');
         return $result;
     }
 }

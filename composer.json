@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": ">=7.1",
-        "ixudra/curl": "^6.17"
+        "ext-curl": "*",
+        "ext-json": "*"
     },
     "require-dev": {
         "php": ">=7.1"
