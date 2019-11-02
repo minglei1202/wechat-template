@@ -56,7 +56,15 @@ abstract class Message implements WechatInterface
 
     public function setData($data = null)
     {
-        $this->template_data = $data;
+        if($data) {
+            $key = 1;
+            foreach($data as $value) {
+                $this->template_data['keyword'.$key] = [
+                    'value' => $value
+                ];
+                $key ++;
+            }
+        }
     }
 
     public function setEmphasisKeyword($keyword = '')
@@ -92,7 +100,7 @@ abstract class Message implements WechatInterface
         ];
         $result = Tools::request_get(self::ACCESS_TOKEN,$params);
         if(!$result || $result['errcode'] != 0) {
-            throw new \Exception('获取调用凭据（access_token）失败：'.$result['errmsg']);
+            throw new \Exception('获取调用凭据（access_token）失败【'.$result['errcode'].'】：'.$result['errmsg']);
         }
         return $result['access_token'];
     }

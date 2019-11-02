@@ -11,5 +11,5 @@ interface WechatInterface
     //发送模板消息
     const TEMPLATE_MESSAGE_SEND = 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send';
     //获取小程序全局唯一后台接口调用凭据
-    const ACCESS_TOKEN          = 'https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send';
+    const ACCESS_TOKEN          = 'https://api.weixin.qq.com/cgi-bin/token';
 }
